@@ -1,0 +1,30 @@
+Flex has two parts Parent and the children:
+
+eg. 
+.sample-class{
+  display: flex;    // the flex properties are given for the parent element
+  display: inline-flex;
+
+}
+
+Flex properties:
+flex properties are of two types
+1) one that affects the parent or the all children properties 
+2) one that affects individual properties
+
+1) One that affects all the children
+  - flex-direction: row, row-reverse, column, column-reverse
+  - flex-wrap: nowrap(default), wrap, wrap-reverse
+  - justify-content (horizontal alignment): 
+    - justify-content: flex-start;  // default behaviour
+    - justify-content: flex-end; // boxes are swifted towards the right hand side
+        Evenly distributed 
+    - justify-content: space-between. // all the children are spaced equally inside the parent container
+    - justify-content: space-around. // add margin around the child elements
+    - justify-content: space-evenly. // the margin is spread evenly
+    - justify-content: center. // content are placed at the center
+    
+  - align-item //for the vertical alignment of the items
+    
+    
+    
